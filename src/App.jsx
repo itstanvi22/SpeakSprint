@@ -861,13 +861,13 @@ function StyleSheet() {
         --c-amber: #FFB454;
         --c-green: #3ED9A0;
         --c-danger: #FF6B6B;
-        position: relative;
-        min-height: 100%;
-        background: var(--bg);
-        color: var(--text);
-        font-family: 'Inter', system-ui, sans-serif;
-        overflow: hidden;
-        border-radius: 16px;
+         position: relative;
+         min-height: 100vh;
+         width: 100%;
+         background: var(--bg);
+         color: var(--text);
+         font-family: 'Inter', system-ui, sans-serif;
+         overflow-x: hidden;
       }
       .ss-root * { box-sizing: border-box; }
       .ss-blob { position: absolute; border-radius: 50%; filter: blur(70px); opacity: 0.25; pointer-events: none; }
